@@ -133,3 +133,68 @@ Ensure the backend is running and accessible. Update the API endpoint in [`src/s
    - Frontend: http://localhost:3000
    - Backend API: http://localhost:3001
    - MongoDB: mongodb://localhost:27017
+  
+ -----
+ # App Testing Prompts
+
+Based on your app's contextual content generation logic, here are comprehensive prompt ideas to test different scenarios:
+
+## Food & Restaurant Testing
+- "artisan bakery"
+- "Italian restaurant" 
+- "food truck business"
+- "organic bakery cafe"
+- "seafood restaurant chain"
+- "vegan food delivery"
+- "bakery and restaurant combo"
+
+## Tech & Software Testing
+- "mobile app development"
+- "SaaS software platform"
+- "tech startup incubator"
+- "AI software solutions"
+- "app for fitness tracking"
+- "software consulting firm"
+- "tech innovation lab"
+
+## Portfolio & Personal Testing
+- "personal portfolio website"
+- "freelance designer portfolio"
+- "personal brand consulting"
+- "photographer portfolio"
+- "personal finance blog"
+- "creative portfolio showcase"
+
+## E-commerce & Shopping Testing
+- "online clothing store"
+- "ecommerce marketplace"
+- "handmade crafts shop"
+- "electronics store online"
+- "boutique fashion shop"
+- "vintage furniture store"
+- "sports equipment ecommerce"
+
+## Edge Cases & Generic Testing
+- "consulting services" (should trigger generic)
+- "fitness gym" (should trigger generic)
+- "law firm" (should trigger generic)
+- "beauty salon" (should trigger generic)
+- "real estate agency" (should trigger generic)
+
+## Mixed/Ambiguous Cases
+- "restaurant app" (contains both food and app keywords)
+- "bakery software" (contains both bakery and software)
+- "tech food startup" (multiple categories)
+- "personal ecommerce store" (multiple categories)
+
+## Capitalization Testing
+- "BAKERY" (test case sensitivity)
+- "Tech Startup" (mixed case)
+- "ECOMMERCE STORE" (all caps)
+
+## Single Word Testing
+- "bakery"
+- "tech"
+- "portfolio" 
+- "shop"
+- "app"
