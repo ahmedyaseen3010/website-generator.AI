@@ -2,19 +2,6 @@
 
 A full-stack application for generating and managing website ideas with contextual content generation. Built with NestJS backend and Next.js frontend.
 
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Prerequisites](#prerequisites)
-- [Quick Start](#quick-start)
-- [Project Structure](#project-structure)
-- [MongoDB Setup](#mongodb-setup)
-- [Backend Setup](#backend-setup)
-- [Frontend Setup](#frontend-setup)
-- [Testing](#testing)
-- [Development Workflow](#development-workflow)
-- [Troubleshooting](#troubleshooting)
-
 ## 🎯 Overview
 
 This repository contains two main components:
